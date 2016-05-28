@@ -1,0 +1,26 @@
+.avro_nav_container {
+  direction: rtl;
+  background: #000825;  
+}
+
+.avro_nav_container ul {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  color: white; 
+}
+
+.avro_nav_container ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.avro_nav_container h3 {
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+.avro_nav_container h3:hover {
+  background: #1E4974;
+}
