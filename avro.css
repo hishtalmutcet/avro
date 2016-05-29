@@ -17,7 +17,7 @@
 
 .avro_nav_container h3 {
   margin: 0 auto;
-  padding: 15px 42% 15px 0px!important;
+  padding: 15px 50% 15px 0px!important;
   display: flex!important;
   align-items: center;
 }
@@ -28,4 +28,8 @@
 
 .avro_nav_container i {
   padding: 0 0 0 5px!important;
+}
+
+#page-course-view-topcoll .course-content ul.ctopics #section-0 .content, #page-course-view-weeks ul.weeks #section-0 .content {
+  background-color: rgba(0, 0, 0, 0)!important;
 }
