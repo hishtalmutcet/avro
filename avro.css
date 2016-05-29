@@ -19,7 +19,7 @@
 .avro_nav_container h3 {
   margin: 0 auto;
   padding: 10px 0px;
-  display:flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
@@ -30,5 +30,4 @@
 
 .avro_nav_container img {
   padding: 0 0 0 5px;
-  display: inline;
 }
