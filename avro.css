@@ -7,12 +7,12 @@
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
-  color: white; 
+  color: white!important; 
 }
 
 .avro_nav_container ul a {
   text-decoration: none;
-  color: white;
+  color: white!important;
 }
 
 .avro_nav_container h3 {
@@ -60,4 +60,16 @@ background: -moz-linear-gradient(top,  rgba(53,142,224,1) 0%, rgba(55,143,224,1)
 background: -webkit-linear-gradient(top,  rgba(53,142,224,1) 0%,rgba(55,143,224,1) 1%,rgba(239,246,252,0) 92%,rgba(255,255,255,0) 100%);
 background: linear-gradient(to bottom,  rgba(53,142,224,1) 0%,rgba(55,143,224,1) 1%,rgba(239,246,252,0) 92%,rgba(255,255,255,0) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#358ee0', endColorstr='#00ffffff',GradientType=0 );
+}
+
+.avro_abstract {
+  display: flex!important;
+  direction: rtl;
+  align-items: center;
+}
+
+.avro_abstract img {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 20px;
 }
