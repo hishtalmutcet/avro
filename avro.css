@@ -1,6 +1,6 @@
 .avro_nav_container {
   direction: rtl;
-  background: #000825;  
+  background: #014891;  
 }
 
 .avro_nav_container ul {
@@ -19,8 +19,15 @@
 .avro_nav_container h3 {
   margin: 0 auto;
   padding: 10px 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .avro_nav_container h3:hover {
-  background: #1E4974;
+  background: #36CEF0;
+}
+
+.avro_nav_container img {
+  padding: 0 0 0 5px;
 }
