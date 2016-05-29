@@ -30,6 +30,5 @@
 
 .avro_nav_container img {
   padding: 0 0 0 5px;
-  width: 24px;
-  height: 24px;
+  display: inline;
 }
