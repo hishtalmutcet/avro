@@ -23,6 +23,7 @@
 
 .avro_nav_container h3:hover {
   background: #36CEF0;
+  cursor: pointer; 
 }
 
 .avro_nav_container i {
