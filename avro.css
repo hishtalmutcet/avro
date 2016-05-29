@@ -4,7 +4,6 @@
 }
 
 .avro_nav_container ul {
-  text-align: center;
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
@@ -18,10 +17,9 @@
 
 .avro_nav_container h3 {
   margin: 0 auto;
-  padding: 15px 0px;
+  padding: 15px 50% 15px 0px;
   display: flex!important;
   align-items: center;
-  justify-content: center;
 }
 
 .avro_nav_container h3:hover {
