@@ -38,15 +38,8 @@
     padding: 0px!important;
 }
 
-.avro_top p.intro-paragraph {
-	 text-align: justify;
-	 font-size: 18px;
-	 line-height: 39px;
-	 border-top: 2px solid #ccc;
-	 border-bottom: 2px solid #ccc;
-	 width: 96.95%;
-	 font-family: "Nachlieli200","Arial";
-	 direction: rtl;
+.dir-rtl#page-course-view-topcoll #region-main .course-content ul li .left.side {     margin-left: 0px!important;
+  padding-right: 0px!important;
 }
 
 .avro_top {
