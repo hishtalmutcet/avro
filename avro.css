@@ -31,5 +31,19 @@
 }
 
 #page-course-view-topcoll .course-content ul.ctopics #section-0 .content, #page-course-view-weeks ul.weeks #section-0 .content {
-  background-color: rgba(0, 0, 0, 0)!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.avro_top p.intro-paragraph {
+	 text-align: justify;
+	 font-size: 18px;
+	 line-height: 39px;
+	 margin-bottom: 1.2em;
+	 margin-top: 1.2em;
+	 padding: 1em 1em 1em 1em;
+	 border-top: 2px solid #ccc;
+	 border-bottom: 2px solid #ccc;
+	 width: 96.95%;
+	 font-family: "Nachlieli200","Arial";
+	 direction: rtl;
 }
