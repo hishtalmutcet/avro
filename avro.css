@@ -51,6 +51,11 @@
 }
 
 .avro_top {
+border-radius: 20px;
+height: 140px;
+display: flex!important;
+align-items: center;
+justify-content: center;
 background: -moz-linear-gradient(top,  rgba(53,142,224,1) 0%, rgba(55,143,224,1) 1%, rgba(239,246,252,0) 92%, rgba(255,255,255,0) 100%);
 background: -webkit-linear-gradient(top,  rgba(53,142,224,1) 0%,rgba(55,143,224,1) 1%,rgba(239,246,252,0) 92%,rgba(255,255,255,0) 100%);
 background: linear-gradient(to bottom,  rgba(53,142,224,1) 0%,rgba(55,143,224,1) 1%,rgba(239,246,252,0) 92%,rgba(255,255,255,0) 100%);
