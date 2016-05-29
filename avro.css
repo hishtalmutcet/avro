@@ -16,7 +16,7 @@
   color: white;
 }
 
-.avro_nav_container h2 {
+.avro_nav_container h3 {
   margin: 0 auto;
   padding: 15px 0px;
   display: flex!important;
@@ -24,7 +24,7 @@
   justify-content: center;
 }
 
-.avro_nav_container h2:hover {
+.avro_nav_container h3:hover {
   background: #36CEF0;
 }
 
