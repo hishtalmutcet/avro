@@ -54,10 +54,10 @@ height: 140px;
 display: flex!important;
 align-items: center;
 justify-content: center;
-background: -moz-linear-gradient(top,  rgba(222,234,243,1) 0%, rgba(222,234,243,1) 1%, rgba(252,253,254,0) 92%, rgba(255,255,255,0) 100%);
-background: -webkit-linear-gradient(top,  rgba(222,234,243,1) 0%,rgba(222,234,243,1) 1%,rgba(252,253,254,0) 92%,rgba(255,255,255,0) 100%);
-background: linear-gradient(to bottom,  rgba(222,234,243,1) 0%,rgba(222,234,243,1) 1%,rgba(252,253,254,0) 92%,rgba(255,255,255,0) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#deeaf3', endColorstr='#00ffffff',GradientType=0 );
+background: -moz-linear-gradient(top, rgba(244,126,46,1) 0%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top, rgba(244,126,46,1) 0%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom, rgba(244,126,46,1) 0%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47e2e', endColorstr='#00ffffff',GradientType=0 );
 }
 
 .avro_abstract {
