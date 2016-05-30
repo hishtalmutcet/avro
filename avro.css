@@ -49,14 +49,14 @@
 }
 
 .avro_top {
-border-radius: 20px;
-height: 140px;
+border-radius: 10px;
+height: 100px;
 display: flex!important;
 align-items: center;
 justify-content: center;
-background: -moz-linear-gradient(top, rgba(244,126,46,1) 0%, rgba(255,255,255,0) 100%);
-background: -webkit-linear-gradient(top, rgba(244,126,46,1) 0%,rgba(255,255,255,0) 100%);
-background: linear-gradient(to bottom, rgba(244,126,46,1) 0%,rgba(255,255,255,0) 100%);
+background: -moz-linear-gradient(top,  rgba(244,126,46,1) 0%, rgba(255,255,255,0.1) 90%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top,  rgba(244,126,46,1) 0%,rgba(255,255,255,0.1) 90%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom,  rgba(244,126,46,1) 0%,rgba(255,255,255,0.1) 90%,rgba(255,255,255,0) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47e2e', endColorstr='#00ffffff',GradientType=0 );
 }
 
