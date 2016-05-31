@@ -1,6 +1,6 @@
 .avro_nav_container {
   direction: rtl;
-  background: #014891;  
+  background: #004990;  
 }
 
 .avro_nav_container ul {
@@ -27,7 +27,7 @@
 }
 
 .avro_nav_container h3:hover {
-  background: #36CEF0;
+  background: #99bfe5;
   cursor: pointer; 
 }
 
