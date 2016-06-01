@@ -13,7 +13,7 @@
   text-decoration: none;
 }
 
-.avro_nav_container h2 {
+.avro_nav_container h3 {
   margin: 0 auto;
   padding: 15px 7% 15px 0px!important;
   display: flex!important;
@@ -23,16 +23,16 @@
   font-weight: bold;
 }
 
-.avro_nav_container h2#first {
+.avro_nav_container h3#first {
   color: #004990!important;
   background: white;  
 }
 
-.avro_nav_container h2#last {
+.avro_nav_container h3#last {
   border-bottom: none; 
 }
 
-.avro_nav_container h2:hover {
+.avro_nav_container h3:hover {
   background: #99bfe5!important;
   cursor: pointer; 
 }
