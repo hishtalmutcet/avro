@@ -20,7 +20,7 @@
   align-items: center;
   color: white!important;
   border-bottom: 2px groove gray;
-  font-size: 1.2em;
+  font-size: 1.2em!important;
 }
 
 .avro_nav_container h3#first {
