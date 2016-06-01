@@ -32,6 +32,11 @@
   border-bottom: none; 
 }
 
+.avro_nav_container h3#dilema {
+  background: #F47D30;
+  border-bottom: none; 
+}
+
 .avro_nav_container h3:hover {
   background: #99bfe5!important;
   cursor: pointer; 
