@@ -91,3 +91,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99bfe5', end
 .avro_abstract p {
   font-size: 18px;
 }
+
+.activity_help {
+  margin: 10px;
+  text-align: left;
+  color: black;
+  cursor: pointer;
+}
