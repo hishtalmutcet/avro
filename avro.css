@@ -118,3 +118,18 @@ box-shadow: 6px 6px 8px -2px rgba(0,0,0,0.48);
   color: black;
   cursor: pointer;
 }
+
+.avro_unit_section {
+  font-size: 1.5em;
+  direction: rtl;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(22%, rgba(246,246,246,1)), color-stop(100%, rgba(153,191,230,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#99bfe6', GradientType=1 );
+}
