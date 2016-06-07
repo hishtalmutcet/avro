@@ -92,8 +92,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99bfe5', end
   font-size: 18px;
 }
 
+.avro_unit_intro {
+  display: flex!important;
+  direction: rtl;
+  align-items: center;
+}
+
+.avro_unit_intro img {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 8px -2px rgba(0,0,0,0.48);
+-moz-box-shadow: 6px 6px 8px -2px rgba(0,0,0,0.48);
+box-shadow: 6px 6px 8px -2px rgba(0,0,0,0.48);
+}
+
+.avro_unit_intro p {
+  font-size: 18px;
+}
+
 .activity_help {
   margin: 10px;
   text-align: left;
   color: black;
+  cursor: pointer;
 }
