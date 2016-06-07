@@ -4,15 +4,12 @@
 }
 
 div.post-it-note {
-  width: 35%;
+  width: 90%;
   min-width: 13em;
   margin: 3em auto;
 }
 
 .post-it-note p {
-  font-family: helvetica;
-  font-size: 2em;
-  font-weight: bold;
 }
 
 .post-it-note {
