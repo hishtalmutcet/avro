@@ -19,7 +19,7 @@
   display: flex!important;
   align-items: center;
   color: white!important;
-  border-bottom: 2px groove gray;
+  border-bottom: 2px groove #E5E5E5;
   font-size: 1.2em!important;
 }
 
