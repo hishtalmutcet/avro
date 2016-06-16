@@ -1,0 +1,65 @@
+.vc_nav_container {
+  direction: rtl;
+  background: black;  
+}
+
+.vc_nav_container ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.vc_nav_container ul a {
+  text-decoration: none;
+}
+
+.vc_nav_container h3 {
+  margin: 0 auto;
+  padding: 15px 7% 15px 0px!important;
+  display: flex!important;
+  align-items: center;
+  color: white!important;
+  border-bottom: 2px groove gray;
+  font-size: 1.2em!important;
+}
+
+.vc_nav_container h3#first {
+  color: black!important;
+  background: white;  
+}
+
+.vc_nav_container h3#last {
+  border-bottom: none; 
+}
+
+.vc_nav_container h3#special {
+  background: #F47D30!important;
+  border-bottom: none; 
+}
+
+.vc_nav_container h3:hover {
+  background: #37CBFB!important;
+  cursor: pointer; 
+}
+
+.vc_nav_container h3#special:hover {
+  background: #99bfe5!important;
+  cursor: pointer; 
+}
+
+.vc_nav_container i {
+  padding: 0 0 0 5px!important;
+}
+
+#page-course-view-topcoll .course-content ul.ctopics #section-0 .content, #page-course-view-weeks ul.weeks #section-0 .content {
+    background-color: rgba(0, 0, 0, 0)!important;
+  padding: 0px!important;
+}
+
+.format-topcoll .ctopics #section-0 .content .summary .no-overflow {
+    padding: 0px!important;
+}
+
+.dir-rtl#page-course-view-topcoll #region-main .course-content ul li .left.side {     margin-left: 0px!important;
+  padding-right: 0px!important;
+}
