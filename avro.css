@@ -149,3 +149,23 @@ background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1
 background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 22%, rgba(244,125,48,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f47d30', GradientType=1 ); 
 }
+
+.avro_activity_intro {
+  display: flex!important;
+  direction: rtl;
+  align-items: center;
+}
+
+.avro_activity_intro img {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 8px -2px rgba(0,0,0,0.48);
+-moz-box-shadow: 6px 6px 8px -2px rgba(0,0,0,0.48);
+box-shadow: 6px 6px 8px -2px rgba(0,0,0,0.48);
+}
+
+.avro_activity_intro p {
+  font-size: 18px;
+}
