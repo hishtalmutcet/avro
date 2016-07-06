@@ -66,10 +66,10 @@
 
 .avro_top {
 border-radius: 10px 10px 0 0;
-height: 170px;
+height: 147px;
 display: flex!important;
 align-items: center;
-justify-content: flex-end;
+justify-content: flex-start;
 background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner.jpg") no-repeat center center;
 background-size: contain;
 }
