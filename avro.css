@@ -66,11 +66,19 @@
 
 .avro_top {
 border-radius: 10px 10px 0 0;
-height: 100px;
+height: 170px;
 display: flex!important;
 align-items: center;
-justify-content: center;
-background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner.jpg") no-repeat center/100%;
+justify-content: flex-end;
+background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner.jpg") no-repeat center center;
+background-size: contain;
+}
+
+.avro_top h1 {
+  font-family: "Spoiler", "MFWGadMedium","Arial" !important;  
+  font-weight: bolder;
+  color: #004990;
+  margin-right: 5%;
 }
 
 .avro_abstract {
