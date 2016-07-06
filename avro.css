@@ -66,7 +66,7 @@
 
 .avro_top {
 border-radius: 10px 10px 0 0;
-height: 147px;
+height: auto;
 display: flex!important;
 align-items: center;
 justify-content: flex-start;
