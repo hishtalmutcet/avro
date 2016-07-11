@@ -28,6 +28,17 @@
   background: white;  
 }
 
+.avro_nav_container h3#first i {
+  color: #99bfe5!important;
+}
+
+.avro_nav_container h3#first #avro_nav_sep {
+  height: 90px;
+  width: 10px;
+  margin-left: 10px;
+  border-left: 1px solid #99BFE5;
+}
+
 .avro_nav_container h3#last {
   border-bottom: none; 
 }
@@ -40,6 +51,14 @@
 .avro_nav_container h3:hover {
   background: #99bfe5!important;
   cursor: pointer; 
+}
+
+.avro_nav_container h3#first:hover i {
+  color: #004990!important;
+}
+
+.avro_nav_container h3#first:hover #avro_nav_sep {
+  border-left: 1px solid #004990;
 }
 
 .avro_nav_container h3#special:hover {
