@@ -65,20 +65,15 @@
 }
 
 .avro_top {
-border-radius: 10px 10px 0 0;
-height: auto;
+border-radius: 10px;
+height: 100px;
 display: flex!important;
 align-items: center;
-justify-content: flex-start;
-background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner.jpg") no-repeat center center;
-background-size: contain;
-}
-
-.avro_top h1 {
-  font-family: "Spoiler", "MFWGadMedium","Arial" !important;  
-  font-weight: bolder;
-  color: #004990;
-  margin-right: 5%;
+justify-content: center;
+background: -moz-linear-gradient(top,  rgba(153,191,229,1) 0%, rgba(245,249,252,0) 90%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top,  rgba(153,191,229,1) 0%,rgba(245,249,252,0) 90%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom,  rgba(153,191,229,1) 0%,rgba(245,249,252,0) 90%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99bfe5', endColorstr='#00ffffff',GradientType=0 );
 }
 
 .avro_abstract {
@@ -170,4 +165,78 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .avro_activity_intro p {
   font-size: 18px!important;
   font-family: Spoiler Regular, Arial!important;
+}
+
+#avro_banner {
+  direction: rtl;
+  width: 100%;
+  display: flex!important;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#avro_banner span {
+  margin-right: 5%;
+  font-weight: bold;
+  color: #004990;
+}
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner800.jpg") center center/100% 100% no-repeat;
+    height: 68px;
+  }
+    #avro_banner span {
+     font-size: 175%;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1024.jpg") center center/100% 100% no-repeat;
+    height: 92px;
+  }
+    #avro_banner span {
+     font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1280.jpg") center center/100% 100% no-repeat;
+    height: 115px;
+  }
+    #avro_banner span {
+     font-size: 225%;
+  }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1366.jpg") center center/100% 100% no-repeat;
+    height: 125px;
+  }
+    #avro_banner span {
+     font-size: 250%;
+  }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1680.jpg") center center/100% 100% no-repeat;
+    height: 152px;
+  }
+    #avro_banner span {
+     font-size: 275%;
+  }
+}
+
+@media screen and (min-width: 1801px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1920.jpg") center center/100% 100% no-repeat;
+    height: 176px;
+  }
+  #avro_banner span {
+     font-size: 300%;
+  }
 }
