@@ -264,3 +264,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
      font-size: 300%;
   }
 }
+
+.instancename {
+  font-size: 1.1em!important;
+  font-weight: bold!important;
+}
