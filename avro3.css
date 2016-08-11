@@ -1,0 +1,271 @@
+.avro_nav_container {
+  direction: rtl;
+  background: #004990;  
+}
+
+.avro_nav_container ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.avro_nav_container ul a {
+  text-decoration: none;
+}
+
+.avro_nav_container h3 {
+  margin: 0 auto;
+  padding: 15px 7% 15px 0px!important;
+  display: flex!important;
+  align-items: center;
+  color: white!important;
+  border-bottom: 2px groove gray;
+  font-size: 1.2em!important;
+}
+
+.avro_nav_container h3#first {
+  color: #004990!important;
+  background: white;  
+}
+
+.avro_nav_container h3#first i {
+  color: #99bfe5!important;
+}
+
+.avro_nav_container h3#first #avro_nav_sep {
+  height: 90px;
+  width: 10px;
+  margin-left: 10px;
+  border-left: 1px solid #99BFE5;
+}
+
+.avro_nav_container h3#last {
+  border-bottom: none; 
+}
+
+.avro_nav_container h3#special {
+  background: #F47D30!important;
+  border-bottom: none; 
+}
+
+.avro_nav_container h3:hover {
+  background: #99bfe5!important;
+  cursor: pointer; 
+}
+
+.avro_nav_container h3#first:hover i {
+  color: #004990!important;
+}
+
+.avro_nav_container h3#first:hover #avro_nav_sep {
+  border-left: 1px solid #004990;
+}
+
+.avro_nav_container h3#special:hover {
+  background: #99bfe5!important;
+  cursor: pointer; 
+}
+
+.avro_nav_container i {
+  padding: 0 0 0 5px!important;
+}
+
+#page-course-view-topcoll .course-content ul.ctopics #section-0 .content, #page-course-view-weeks ul.weeks #section-0 .content {
+    background-color: rgba(0, 0, 0, 0)!important;
+  padding: 0px!important;
+}
+
+.format-topcoll .ctopics #section-0 .content .summary .no-overflow {
+    padding: 0px!important;
+}
+
+.dir-rtl#page-course-view-topcoll #region-main .course-content ul li .left.side {     margin-left: 0px!important;
+  padding-right: 0px!important;
+}
+
+body.format-topcoll .ctopics #section-0
+.section {
+  display: none!important;
+}
+
+.avro_top {
+border-radius: 10px;
+height: 100px;
+display: flex!important;
+align-items: center;
+justify-content: center;
+background: -moz-linear-gradient(top,  rgba(153,191,229,1) 0%, rgba(245,249,252,0) 90%, rgba(255,255,255,0) 100%);
+background: -webkit-linear-gradient(top,  rgba(153,191,229,1) 0%,rgba(245,249,252,0) 90%,rgba(255,255,255,0) 100%);
+background: linear-gradient(to bottom,  rgba(153,191,229,1) 0%,rgba(245,249,252,0) 90%,rgba(255,255,255,0) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99bfe5', endColorstr='#00ffffff',GradientType=0 );
+}
+
+.avro_abstract {
+  display: flex!important;
+  direction: rtl;
+  align-items: center;
+}
+
+.avro_abstract img {
+  width: 125px;
+  height: 125px;
+  margin: 0 0 0 20px;
+}
+
+.avro_abstract p {
+  font-size: 18px!important;
+  font-family: Spoiler Regular, Arial!important;
+}
+
+.avro_unit_intro {
+  display: flex!important;
+  direction: rtl;
+  align-items: center;
+}
+
+.avro_unit_intro img {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 20px;
+  border-radius: 10px;
+}
+
+.avro_unit_intro p {
+  font-size: 18px!important;
+  font-family: Spoiler Regular, Arial!important;
+}
+
+.activity_help {
+  margin: 10px;
+  text-align: left;
+  color: black;
+  cursor: pointer;
+}
+
+.avro_unit_section {
+  font-size: 1.5em;
+  direction: rtl;
+  padding: 10px;
+  border-radius: 10px;
+  transform: translateX(10px);
+  z-index: 999;
+}
+
+#res {
+    background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(22%, rgba(246,246,246,1)), color-stop(100%, rgba(153,191,230,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 22%, rgba(153,191,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#99bfe6', GradientType=1 );
+}
+
+#act {
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 22%, rgba(244,125,48,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(22%, rgba(237,237,237,1)), color-stop(100%, rgba(244,125,48,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 22%, rgba(244,125,48,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 22%, rgba(244,125,48,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 22%, rgba(244,125,48,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 22%, rgba(244,125,48,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f47d30', GradientType=1 ); 
+}
+
+.avro_activity_intro {
+  display: flex!important;
+  direction: rtl;
+  align-items: center;
+}
+
+.avro_activity_intro img {
+  width: 200px;
+  height: 200px;
+  margin: 0 0 0 20px;
+  border-radius: 10px;
+}
+
+.avro_activity_intro p {
+  font-size: 18px!important;
+  font-family: Spoiler Regular, Arial!important;
+}
+
+#avro_banner {
+  direction: rtl;
+  width: 100%;
+  display: flex!important;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#avro_banner span {
+  margin-right: 5%;
+  font-weight: bold;
+  color: #004990;
+}
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner800.jpg") center center/100% 100% no-repeat;
+    height: 68px;
+  }
+    #avro_banner span {
+     font-size: 175%;
+  }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1024.jpg") center center/100% 100% no-repeat;
+    height: 92px;
+  }
+    #avro_banner span {
+     font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1280.jpg") center center/100% 100% no-repeat;
+    height: 115px;
+  }
+    #avro_banner span {
+     font-size: 225%;
+  }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1366.jpg") center center/100% 100% no-repeat;
+    height: 125px;
+  }
+    #avro_banner span {
+     font-size: 250%;
+  }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1680.jpg") center center/100% 100% no-repeat;
+    height: 152px;
+  }
+    #avro_banner span {
+     font-size: 275%;
+  }
+}
+
+@media screen and (min-width: 1801px) {
+  #avro_banner {
+    background: url("https://cdn.rawgit.com/hishtalmutcet/avro/master/banner1920.jpg") center center/100% 100% no-repeat;
+    height: 176px;
+  }
+  #avro_banner span {
+     font-size: 300%;
+  }
+}
+
+.instancename {
+  font-size: 1.1em!important;
+  font-weight: bold!important;
+}
